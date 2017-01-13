@@ -1,0 +1,234 @@
+
+	
+.topnav {
+	position:fixed;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	overflow-x:hidden;
+}
+
+
+.right{
+		display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff9fff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 25px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #9393ff;
+	color: red;
+}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li.logot{
+	height: 94px;
+    width: 255px;
+	margin: 0px 220px;
+	background: url("http://www.imprinthut.com/image/cache/catalog/Categories%20and%20Sub-Categories/travel-vacation-category-260x260.png");
+}
+
+/*Home*/
+
+#home {
+	background: url("http://miastodzieci.pl/wp-content/uploads/2016/06/holiday-009.png");
+	background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  border-bottom: 1px solid #999;
+  color: #E91E63;;
+  overflow: hidden;
+}
+
+#home h1 {
+	margin-top:250px;
+	font-size:40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 1000;
+	margin-bottom:20px;
+}
+
+#home h3 {
+	font-size:30px;
+	margin-top:20px;
+	font-family: 'Playfair Display', serif;
+	font-weight:400;
+}
+
+/*About*/
+
+#about {
+	text-align:center;
+	border-bottom: solid 1px #999;
+}
+
+#about  h1 {
+	margin-top:100px;
+	font-family:'Playfair Display', serif;
+	font-size:33px;
+}
+
+#about > img{
+	border-radius:50%;
+	width:400px;
+	height:200px;
+	-moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #000;
+  margin-right:40px;
+  margin-top:40px;
+	-webkit-filter: brightness(100%);
+}
+
+#about > img:hover {
+	-webkit-filter: brightness(100%);
+}
+
+
+/*Catalogue*/
+
+#catalogue {
+	color: #333;
+	text-align:center;
+	border-bottom:solid 1px #999;
+}
+
+#catalogue h1 {
+	margin-top:100px;
+	font-family:'Playfair Display', serif;
+	font-size:33px;
+}
+
+#catalogue h3 {
+	font-family:'Playfair Display', serif;
+	font-size:23px;
+	margin-bottom:30px;
+}
+
+img {
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #000;
+  margin-right:40px;
+  margin-top:40px;
+	width:215px;
+	height:185px;
+	-webkit-filter: brightness(100%);
+}
+
+img:hover {
+	-webkit-filter: brightness(70%);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#img {
+  margin-bottom:40px;
+}
+
+#wrapper .text {
+  position:relative;
+  text-align:center;
+  visibility:hidden;
+	bottom: 125px;
+	left:-15px;
+	font-family: 'Playfair Display', serif;
+	font-size:20px;
+	font-weight: bold;
+	color: white;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+#wrapper {
+	margin-left:15px;
+	margin-right:-15px;
+}
+
+span {
+	font-family:'Playfair Display', serif;
+	font-size:23px;
+	margin-bottom: 10px;
+} 
+
+.last {
+	margin-top:40px;
+}
+
+.line {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 15px;
+  width: 88%;
+	border-bottom: solid 1px;
+}
+	
+	div.logout{
+	margin-top: 20px;
+	position: relative;
+	float: right;
+	text-align: center;
+	}
+	button{
+	
+	  width: 62px;
+    height: 26px;
+    
+	}
+	#travels{
+	color: #400040;
+	font-size: 20px;
+	background-color: #d8d8d8;
+	}
+#travels a{
+	color: #0000ff;
+}
+button#get{
+	    width: 86px;
+    height: 36px;
+    color: #0000ff;
+    font-size: 15px;
+
+	}
+	div.radio{
+	position: absolute;
+	 right: 42%;
+	width: 210px;
+    height: 25px;
+    background-color: red;
+}
+	
+	}

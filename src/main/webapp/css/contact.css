@@ -1,0 +1,87 @@
+
+.topnav {
+	position:fixed;
+	top: 0px;
+	width: 100%;
+	 
+}
+
+body {
+	margin: 0;
+	overflow-x:hidden;
+	
+}
+
+.right{
+		display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff9fff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 25px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #9393ff;
+	color: red;
+}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li.logot{
+	height: 94px;
+    width: 255px;
+	margin: 0px 220px;
+	background: url("http://www.imprinthut.com/image/cache/catalog/Categories%20and%20Sub-Categories/travel-vacation-category-260x260.png");
+}
+
+div.logout{
+	margin-top: 20px;
+	position: relative;
+	float: right;
+	text-align: center;
+	}
+	button{
+	
+	  width: 62px;
+    height: 26px;
+    
+	}
+
+div.contacts{
+	background-color: #d3d3d3;
+	padding-left: 30px;
+	margin-top: 120px;
+}
+.contacts h2{
+	color: red;
+}
+.contacts h3{
+	color: blue;
+}
+p{
+	text-decoration: underline;
+}
+}

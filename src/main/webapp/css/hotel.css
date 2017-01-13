@@ -1,0 +1,203 @@
+
+* {
+	
+    margin: 0;
+    padding: 0;
+  	-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	} 
+
+	body {
+		width: 100%;
+		height: 630px;
+		font-family: "helvetica neue", helvetica, arial, sans-serif;
+		font-size: 20px;
+		text-align: center;
+		background: #94E1F9 url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png');
+		
+		background-repeat: no-repeat;
+		background-position: center;
+		color: #ffff00;
+		    
+		
+	
+	}
+
+.form-wrapper {
+	background-color: #80ff80;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eae8e8));
+	background-image: -webkit-linear-gradient(top, #f6f6f6, #eae8e8);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #eae8e8);
+	background-image: -ms-linear-gradient(top, #f6f6f6, #eae8e8);
+	background-image: -o-linear-gradient(top, #f6f6f6, #eae8e8);
+	background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+	border-color: #dedede #bababa #aaa #bababa;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+	-moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+	box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+	margin: 100px auto;
+	overflow: hidden;
+	padding: 8px;
+	width: 647px;
+}
+.form-wrapper #submit {
+	background-color: #fb00fb;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#c3317b), to(#0483a0));
+	background-image: -webkit-linear-gradient(top, #c3317b, #0483a0);
+	background-image: -moz-linear-gradient(top, #c3317b, #0483a0);
+	background-image: -ms-linear-gradient(top, #c3317b, #0483a0);
+	background-image: -o-linear-gradient(top, #c3317b, #0483a0);
+	background-image: linear-gradient(top, #c3317b, #0483a0);
+	border: 1px solid #00748f;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 25px;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+	color: #80ff80;
+	cursor: pointer;
+	height: 42px;
+	float: inherit;
+	font: 15px Arial, Helvetica;
+	padding: 0;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+	width: 302px;
+}
+
+.form-wrapper #submit:hover,
+.form-wrapper #submit:focus {
+	background-color: #ff80ff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a00462), to(#31b2c3));
+	background-image: -webkit-linear-gradient(top, #a00462, #31b2c3);
+	background-image: -moz-linear-gradient(top, #a00462, #31b2c3);
+	background-image: -ms-linear-gradient(top, #a00462, #31b2c3);
+	background-image: -o-linear-gradient(top, #a00462, #31b2c3);
+	background-image: linear-gradient(top, #a00462, #31b2c3);
+}
+
+.form-wrapper #submit:active {
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	outline: 0;
+}
+
+.form-wrapper #submit::-moz-focus-inner {
+	border: 0;
+}
+#hotelName{
+    width: 194px;;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+#stars{
+    width: 85px;;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+#food{
+    width: 110px;;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+#idCity{
+	width: 162px;
+	height: 25px;
+}
+#all{
+	text-align: left;
+	padding-left: 80pt;
+}
+
+
+.topnav {
+	position:fixed;
+	top: 0px;
+	width: 100%;
+	 
+}
+
+body {
+	margin: 0;
+	overflow-x:hidden;
+	background-image: url(http://more-turiv.com/sites/default/files/gj37xVlAw48.jpg);
+}
+
+.right{
+		display: block;
+    color: #91c8ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cc00cc;
+    font-size: 18px;
+}
+
+ul.topnav li {
+	width:127px;
+	height:50px;
+	float: left;
+	display: block;
+    color: #c0c0c0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;}
+ul.topnav li.logot{
+	width:270px;
+	height:95px;
+	margin: 0px 90px;
+	background: url("http://www.imprinthut.com/image/cache/catalog/Categories%20and%20Sub-Categories/travel-vacation-category-260x260.png");
+}
+ul.topnav li a {
+    display: block;
+    color: #c0c0c0;
+    text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+	  font-family: 'Playfair Display', serif;
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #4fffff;
+	color: #ff0000;
+	padding: 14px 16px;
+}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+div.logout{
+	margin-top: 20px;
+	position: relative;
+	float: right;
+	text-align: center;
+	}
+	button{
+	
+	  width: 62px;
+    height: 26px;
+    
+	}
+
